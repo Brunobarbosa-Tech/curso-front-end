@@ -1,0 +1,23 @@
+button{
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #b275eb;
+    color: white;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    transition: 0.6s;
+}
+
+img:hover{
+    width: 200px;
+    height: 200px;
+}

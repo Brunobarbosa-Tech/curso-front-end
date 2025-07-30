@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #e6cba8;
+    height: 500px;
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+@import url('./global.css');
+
+body{
+    background: var( --background-body);
+}
+
+p{
+    font-size: 30px;
+}
+
+.i1 {
+   color: var(--cor-primaria); 
+}
+
+.titulos1 {
+    color: var(--cor-segundaria); 
+}
+
+.btn1 {
+    color: var(--cor-terciarias); 
+    background: var(--background-terciarias);
+}
+

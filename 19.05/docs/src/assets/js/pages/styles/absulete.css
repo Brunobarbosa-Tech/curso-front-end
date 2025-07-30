@@ -1,0 +1,19 @@
+.box {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.absulute{
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+}
+
+p {
+    text-align: center; 
+}

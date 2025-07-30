@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria: #da2287;
+
+     --cor-segundaria: #7f13bd;
+
+     --cor-terciarias: #e0dee0;
+
+     --background-terciarias:#3410b4;
+
+     --background-body: #a5d1c6;
+
+    --font-body: 15px;
+}

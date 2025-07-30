@@ -1,0 +1,19 @@
+.box {
+    height: 100px;  /* Altura */
+    width: 100px;   /* Largura */
+    background-color: aqua;   /* Cor de fundo */
+
+    padding: 100px;  /* Espaçamento interno */
+    
+    border: 1px solid #000;  /* Borda 1px é o tamnho, solid é tipo da borda e a cor da borda */
+
+   /*  margin: 100px;  */
+   /* margin-top: 100px;   margin na parte de cima */
+   /* margin-left: 100px;  "Margin na esquerda */
+   /* margin-right: 100px; "Margin na direita */
+   /* margin-bottom: 100px; "Margin em baixo */
+
+   /* margin: 100px 10px 20px 100px; */
+
+   margin: 100px 20px; /* 100px pega no eixo y e 20px no eixo x */
+}

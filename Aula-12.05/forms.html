@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <form>
+
+     <fieldset>   <!--<label>Nome completo</label>  Texto descretivo de um inpuit 
+       <input type="text">  Campo de entrada -->
+
+       <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Informe seu e-mail" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Informe sua senha" required>
+
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" placeholder="Infome sua idade">
+
+        <label for="data-nascimento">Data de Nascimento</label>
+        <input type="date" name="data-nascimento" id="data-nascimento">
+
+        <label for="profissao">Profissão</label>
+        <select id="profissao" name="profissao">
+            <option value="Opção 1">Opção 1</option>
+            <option value="Opção 2">Opção 2</option>
+            <option value="Opção 3">Opção 3</option>
+        </select>
+
+        <br>
+
+        <p>Cor favorita:</p>
+
+        <label for="">
+            <input type="radio" name="cor" value="azul">Azul
+        </label>
+
+        <label for="">
+            <input type="radio" name="cor" value="vermelho">Vermelho
+        </label>
+
+        <label for="">
+            <input type="radio" name="cor" value="preto">Preto
+        </label>
+
+        <br>
+
+        <p>Selecione as frutas que você gosta:</p>
+
+        <label for="">
+            <input type="checkbox" name="frutas" value="Maça"> Maça
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="frutas" value="laranja"> Laranja
+        </label>
+
+          <button type="submit">Enviar</button>
+
+    </fieldset>
+
+    </form>
+
+</body>
+
+</html>

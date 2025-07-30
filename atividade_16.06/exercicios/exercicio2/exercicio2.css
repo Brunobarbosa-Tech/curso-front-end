@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caixas-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.menu {
+    width: 500px;
+    padding: 20px;
+    background-color: #81f0b9;
+}
+
+.conteudo {
+    width: 1600px;
+    padding: 20px;
+    background-color: #81f0b9;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Três colunas: a segunda tem o dobro da largura das outras duas */
+  grid-template-rows: 100px 200px; /* Duas linhas */
+  gap: 10px; /* Espaço entre as células */
+}
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+}
