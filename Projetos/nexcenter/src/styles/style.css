@@ -1,0 +1,731 @@
+@import url(./global.css);
+
+/* -------------- HEADER ----------------- */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-Silver);
+    padding: 22px 0;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: #18191F;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.btn-header {
+    display: flex;
+    gap: 14px;
+}
+
+.btn-login {
+    background-color: var(--color-neutral-Silver);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-login a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-singup {
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.btn-singup a {
+    color: var(--color-neutral-White);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+/* -------------- FIM HEADER ----------------- */
+
+/* -------------- MAIN ----------------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 94px 0;
+    background-color: var(--color-neutral-Silver);
+}
+
+.content-lessons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+}
+
+.content-lessons h1 {
+    font-size: 64px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.content-lessons h1 span {
+    color: var(--color-primary);
+}
+
+.content-lessons p {
+    color: var(--color-neutral-Grey);
+}
+
+.content-lessons button {
+    width: 128px;
+}
+
+ main .btn-primary  {
+    border-radius: 4px;
+}
+
+/* -------------- FIM MAIN ----------------- */
+
+/* -------------- Our Clients ----------------- */
+
+/* .our-clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.our-clients-content h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-neutral-D_Grey);
+    font-size: 36px;
+    gap: 8px;
+}
+
+.our-clients-content p {
+    color: var(--color-neutral-Grey);
+} */
+
+.our-clients {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-clients-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-clients-content h2 {
+    font-size: 36px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.our-clients-content p {
+    color: var(--color-neutral-Grey);
+}
+
+.our-clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0;
+}
+
+/* -------------- FIM Our Clients ----------------- */
+
+/* -------------- Manage-your ----------------- */
+
+.manage-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px 0;
+}
+
+.manage-your {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.manage-your h2 {
+    width: 542px;
+    font-size: 36px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.manage-your p {
+    color: var(--color-neutral-Grey);
+}
+
+/* -------------- FIM Manage-your ----------------- */
+
+
+/* -------------- Card-section ----------------- */
+
+.cards-section {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 10px 144px;
+    gap: 127px;
+}
+
+.card-1 {
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+
+.card-1 h3 {
+    font-size: 28px;
+    color: var(--color-neutral-D_Grey);
+    margin-top: 16px;
+}
+
+.card-1 p {
+    margin-top: 8px;
+    color: var(--color-neutral-Grey);
+}
+
+.card-2 {
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+
+
+.card-2 h3 {
+    font-size: 28px;
+    margin-top: 16px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.card-2 p {
+    margin-top: 8px;
+    color: var(--color-neutral-Grey);
+}
+
+.card-3 {
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+
+.card-3 h3 {
+    font-size: 28px;
+    margin-top: 16px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.card-3 p {
+    margin-top: 8px;
+    color: var(--color-neutral-Grey);
+}
+
+/* -------------- FIM Card-section ----------------- */
+
+/* -------------- the-unseen-section ----------------- */
+
+.the-unseen-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.unlock-section {
+    width: 661px;
+    height: 268px;
+    margin-top: 82px;
+}
+
+.unlock-section>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-neutral-D_Grey);
+}
+
+.unlock-section>p {
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--color-neutral-Grey);
+}
+
+.unlock-section .btn-primary button {
+    gap: 32px;
+}
+
+/* -------------- FIM the-unseen-section ----------------- */
+
+/* -------------- helpinloca-section ----------------- */
+
+.helpinloca-section {
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    padding: 84px 144px;
+}
+
+.helping-content {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.helping-content>h2 {
+    font-size: 36px;
+    color: var(--color-neutral-D_Grey);
+}
+
+span {
+    color: var(--color-primary);
+}
+
+.helping-content>p {
+    color: var(--color-neutral-Grey);
+}
+
+.grad-cards {
+    width: 540px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 30px;
+}
+
+/* -------------- FIM helpinloca-section ----------------- */
+
+/* -------------- design-section ----------------- */
+
+.design-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 49.47px;
+}
+
+.design-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.design-content {
+    width: 601px;
+}
+
+.design-content h2 {
+    color: var(--color-neutral-D_Grey);
+}
+
+.design-content p {
+    color: var(--color-neutral-Grey);
+    font-size: 14px;
+}
+
+.design-content button {
+    width: 151px;
+}
+
+/* -------------- FIM design-section ----------------- */
+
+/* -------------- Customer ----------------- */
+
+.customer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    gap: 78px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.customer-content {
+    display: flex;
+    flex-direction: column;
+    width: 748px;
+    gap: 32px;
+}
+
+.customer-content p:nth-child(1) {
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.customer-information {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customer-author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customer-author p:nth-child(1) {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customer-author p:nth-child(2) {
+    color: var(--color-neutral-L_Grey);
+}
+
+.customer-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.customer-itens {
+    display: flex;
+    gap: 41px;
+}
+
+.customer-navigation button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-primary);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* -------------- FIM How Design ----------------- */
+
+/* -------------- Caring Marketing ----------------- */
+
+.caring-marketing {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    text-align: center;
+    gap: 16px;
+}
+
+.caring-marketing-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.caring-marleting-text p {
+    width: 628px;
+    color: var(--color-neutral-Grey);
+}
+
+.caring-marketing-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.caring-cards {
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content {
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: var(--color-neutral-Silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgb(171, 190, 209, 0.40);
+    position: absolute;
+    top: 190px;
+    left: 25.5px;
+}
+
+.caring-cards-content p {
+    font-size: 20px;
+    color: var(--color-neutral-Grey);
+    font-weight: 600;
+}
+
+.caring-cards-content button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: transparent;
+}
+
+/* -------------- FIM Caring Marketing ----------------- */
+
+/* -------------- pellentesque ----------------- */
+
+.pellentesque-suscipit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin-top: 94.6px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.pellentesque-suscipit h2 {
+    width: 887px;
+    font-size: 62px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-neutral-Black);
+    gap: 32px;
+}
+
+.pellentesque-suscipit button {
+    padding: 14px 32px;
+    gap: 8px;
+}
+
+/* -------------- FIM pellentesque ----------------- */
+
+/* -------------- footer ----------------- */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 165px;
+    background-color: var(--color-neutral-Black);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nav>a {
+    display: flex;
+    gap: 16px;
+}
+
+.copyrigth {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.copyrigth {
+    font-size: 14px;
+    color: var(--color-neutral-Silver);
+}
+
+.company-information {
+    display: flex;
+    gap: 30px;
+}
+
+.company-information h3 {
+    color: var(--color-neutral-Silver);
+    font-size: 20px;
+}
+
+.navgation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.navgation>nav>a {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 14px;
+    color: var(--color-neutral-Silver);
+}
+
+.stay-up {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-send {
+    display: flex;
+    border-radius: 8px;
+    padding: 9px 12px;
+    gap: 87px;
+    background-color: var(--color-neutral-D_Grey);
+}
+
+input{
+    outline: none;
+    background-color: transparent; 
+}
+
+.input-send>button {
+    background-color: var(--color-neutral-D_Grey);
+}
+
+/* -------------- FIM footer -----------------
+
+/* Breakpoints */
+
+/* Mobile ---> 480px */
+/* Tablet ---> 768px */
+/* Notebook ---> 1024px*/
+/* Desktop ---> 1200px */
+
+
+
+@media (max-width: 1024px){
+   
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    main{
+        gap: 40px;
+        padding: 20px;
+    }
+
+    main h1{
+        font-size: 55px;
+    }
+
+    .cards-section{
+        gap: 25px;
+    }
+
+    .design-section {
+    gap: 50px;
+    }
+
+    .caring-marketing{
+        flex-direction: column;
+    }
+
+    footer h1 p{
+        gap: 20px;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    footer img {
+       width: 60px;
+       height: 60px;    
+    }
+    
+}
+
+@media (max-width: 768px){
+
+     .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+
+    main{
+        gap: 20px;
+        padding: 20px;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    .cards-section{
+        gap: 20px;
+    }
+
+    .design-section {
+    gap: 30px;
+    }
+
+    .caring-marketing{
+        flex-direction: column;
+    }
+
+    footer h1 p{
+        gap: 20px;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    footer img {
+       width: 60px;
+       height: 60px;    
+    }
+}
+
+@media (max-width: 480px){
+   
+}

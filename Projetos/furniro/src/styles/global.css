@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-preto: #000000;
+    --color-cinza-escuro: #3A3A3A;
+    --color-branco: #FFFFFF;
+    --color-dourado: #B88E2F;
+    --color-cinza-medio: #898989;
+    --color-cinza-gelo: #F4F5F7;
+    --color-carvao: #333333;
+    --color-grafite: #616161;
+    --color-cinza-claro: #9F9F9F;
+    --color-verde-agua: #2EC1AC;
+    --color-cinza-neutro: #B0B0B0;
+    --color-frangipani: #FFF3E3;
+    --color-cinza: #666666;
+
+
+    --font: "Poppins", sans-serif;
+}
+
+.btn {
+    width: 222px;
+    margin-top: 46px;
+    padding: 25px 72px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--color-branco);
+    background-color: var(--color-dourado);
+}
+
+.btn:hover {
+    color: var(--color-dourado);
+    background-color: var(--color-carvao);
+}
